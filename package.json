@@ -1,0 +1,16 @@
+{
+  "name": "fasthostcity-website-design",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./app/css/style.css -o ./dist/css/style.css",
+    "watch": "tailwindcss -i ./app/css/style.css -o ./dist/css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "RabbitMaid",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
